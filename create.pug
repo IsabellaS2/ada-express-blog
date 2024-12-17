@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    form(action="/create", method="POST")
+        div
+            label(for="title") Title
+            input(type="text", name="title", id="title")
+        div
+            label(for="content") Content
+            textarea(name="content", id="content")
+        div
+            input(type="submit", value="Create Post")

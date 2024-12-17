@@ -1,0 +1,17 @@
+doctype html 
+html(lang="en")
+    head 
+        title=title 
+        link(rel="stylesheet", href="/css/style.css")
+
+    body 
+        header   
+            h1 express blog app 
+            nav.navbar 
+                ul    
+                    li    
+                        a(href="/") Home
+
+        main 
+            h1=title 
+            block content
